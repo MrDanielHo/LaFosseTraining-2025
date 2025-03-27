@@ -1,0 +1,16 @@
+{
+  "name": "fruitsalad",
+  "version": "1.0.0",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "watchify script.js -o bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "watchify": "^4.0.0"
+  }
+}
