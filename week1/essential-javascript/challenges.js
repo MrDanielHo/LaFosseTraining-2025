@@ -28,9 +28,13 @@ function finalCountDown (numberStart,numberStop ,numberFinal) {
     } else {
         for (let i = numberStart; i < numberStop; i++) {
             console.log(i);
+            if (i === numberStop) {
+                console.log(numberFinal);
+            }
         }
     }
 }
+finalCountDown(10,5,100)
 
 // *Direct* students, in pairs, to write a function (countTarget()) that does the following:
 // * Accepts two arguments: an array of values (arr) and a target value (target)
@@ -43,3 +47,17 @@ function finalCountDown (numberStart,numberStop ,numberFinal) {
 // * countTarget([1, 1, 1], 1) -> { success: true, count: 3 }
 // * countTarget([1, 1, 1], 3) -> { success: false, count: 0 }
 // * countTarget([1, 1, “1”], 1) -> { success: true, count: 2 }
+
+function countTarget(arr, num) {
+    let counter = 0
+    for (let i = 0; i < arr.length; i++) {
+       if(arr[i] === num) {
+        counter ++
+       } 
+    }
+
+    return {
+        success: counter > 0,
+        count: counter
+    }
+}
