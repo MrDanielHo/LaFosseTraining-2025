@@ -19,9 +19,9 @@ CREATE TABLE wrong (
     forgotten BOOLEAN DEFAULT FALSE,
     revenged BOOLEAN DEFAULT FALSE,
     PRIMARY KEY (wrong_id),
-    FOREIGN KEY (purpertrator_id) REFERENCES person(person_id),
-    FOREIGN KEY (victim_id) REFERENCES person(person_id),
+    FOREIGN KEY (purpetrator_id) REFERENCES person(person_id),
+    FOREIGN KEY (victim_id) REFERENCES person(person_id)
 );
 
-INSERT INTO wrong (purpertrator_id, victim_id, description)
+INSERT INTO wrong (purpetrator_id, victim_id, description)
 VALUES (3, 2, 'Ate his pet chicken (Bianca)');
