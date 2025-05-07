@@ -1,0 +1,21 @@
+Employee ID,Name,Department,Salary,Joining Date,Years of Experience
+1,Employee 1,IT,,2020-01-15,2
+2,Employee 2,HR,55000.0,2019-02-20,3
+3,Employee 3,Finance,72000.0,2018-03-10,4
+4,Employee 4,Marketing,,2021-04-25,1
+5,Employee 5,Sales,48000.0,2017-05-30,5
+6,Employee 6,IT,52000.0,2016-06-05,6
+7,Employee 7,HR,60000.0,2020-07-18,2
+8,Employee 8,Finance,67000.0,2019-08-22,3
+9,Employee 9,Marketing,49000.0,2018-09-14,4
+10,Employee 10,Sales,53000.0,2017-10-19,5
+11,Employee 11,IT,,2020-11-02,2
+12,Employee 12,HR,68000.0,2019-12-08,3
+13,Employee 13,Finance,50000.0,2018-01-23,4
+14,Employee 14,Marketing,,2021-02-27,1
+15,Employee 15,Sales,47000.0,2017-03-12,5
+16,Employee 16,IT,61000.0,2020-04-15,6
+17,Employee 17,HR,65000.0,2019-05-28,2
+18,Employee 18,Finance,49000.0,2018-06-07,3
+19,Employee 19,Marketing,,2021-07-19,4
+20,Employee 20,Sales,52000.0,2017-08-23,5
